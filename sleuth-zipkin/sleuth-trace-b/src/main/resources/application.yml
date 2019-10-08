@@ -2,13 +2,13 @@ spring:
   application:
     name: trace-b
   sleuth:
-    web:
-      client:
-        enabled: true
+    #web:
+    #  client:
+    #    enabled: true
     sampler:
       probability: 1
-  zipkin:
-    base-url: http://localhost:9412/
+  #zipkin:
+  #  base-url: http://localhost:9412/
 server:
   port: 8081
 eureka:

@@ -113,3 +113,8 @@ buildNumber.properties
 
 .idea
 *.iml
+
+**/.settings/
+**/target/
+**/.classpath
+**/.project
